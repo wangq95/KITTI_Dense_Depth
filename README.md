@@ -43,10 +43,9 @@ im_color = cv2.applyColorMap(im, cv2.COLORMAP_JET)
 
 original rgb image:
 ![rgb](https://github.com/QianshengGu/KITTI_Dense_Depth/blob/master/misc/simple_rgb.png)
-#<img align="center" src="misc/simple_rgb.png", width="550">
 
 Sparse depth map that only about ``16%`` pixels available:
-<img align="center" src="misc/simple_depth_sparse_jet.png", width="550">
+![sparse](https://github.com/QianshengGu/KITTI_Dense_Depth/blob/master/misc/simple_sparse_depth_jet.png)
 
 Colorful dense map:
-<img align="center" src="misc/simple_depth_dense_jet.png", width="550">
+![dense](https://github.com/QianshengGu/KITTI_Dense_Depth/blob/master/misc/simple_dense_depth_jet.png)
