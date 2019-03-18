@@ -48,4 +48,4 @@ Sparse depth map that only about ``16%`` pixels available:
 ![sparse](https://github.com/QianshengGu/KITTI_Dense_Depth/blob/master/misc/simple_sparse_depth_jet.png)
 
 Colorful dense map:
-![dense](https://github.com/QianshengGu/KITTI_Dense_Depth/blob/master/misc/simple_dense_depth_jet.png)
+![dense](https://github.com/QianshengGu/KITTI_Dense_Depth/blob/master/misc/simple_depth_dense_jet.png)
