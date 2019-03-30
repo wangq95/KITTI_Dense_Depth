@@ -33,7 +33,7 @@ python save_16bitpng_gt.py
 
 - Finally, you can remap them to a colorful result for **visulization**:
 
-```bash
+```python
 import cv2
 im = cv2.imread('image/path')
 im_color = cv2.applyColorMap(im, cv2.COLORMAP_JET)
