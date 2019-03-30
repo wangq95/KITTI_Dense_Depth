@@ -19,7 +19,7 @@ You would want to follow the traditional split of Eigen, the training list file 
 
 ## In-painting
 
-Firstly, you can generate the **projected** depth ground-truth by running the python code provided by:
+- Firstly, you can generate the **projected** depth ground-truth by running the python code provided by:
 
 https://github.com/danxuhk/StructuredAttentionDepthEstimation
 
@@ -29,9 +29,9 @@ Do not change the file structure of the **kitti raw data**. Modify the kitti raw
 python save_16bitpng_gt.py
 ```
 
-Secondly, run the script ``extract_depth.m`` in Matlab before you modify the **index file** and **save path** of the code. Taken RGB image and projected depth groud-truth as input, this script can generate the dense depth map with **relative depth** value.
+- Secondly, run the script ``extract_depth.m`` in Matlab before you modify the **index file** and **save path** of the code. Taken RGB image and projected depth groud-truth as input, this script can generate the dense depth map with **relative depth** value.
 
-Finally, you can remap them to a colorful result for **visulization**:
+- Finally, you can remap them to a colorful result for **visulization**:
 
 ```bash
 import cv2
